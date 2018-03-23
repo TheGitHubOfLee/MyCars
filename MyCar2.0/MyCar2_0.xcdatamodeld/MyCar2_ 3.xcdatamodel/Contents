@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Entity" representedClassName="Entity" syncable="YES">
+        <attribute name="newsImg" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="newsLink" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="publishTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="src" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="WebCollectionData" representedClassName="WebCollectionData" syncable="YES"/>
+    <elements>
+        <element name="Entity" positionX="-45" positionY="36" width="128" height="120"/>
+        <element name="WebCollectionData" positionX="-63" positionY="-18" width="128" height="45"/>
+    </elements>
+</model>

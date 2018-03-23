@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IntroCell" rowHeight="60" id="KGk-i7-Jjw" customClass="IntroductionCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="k98-b1-SAb">
+                        <rect key="frame" x="15" y="5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="5Ot-gt-Xcu"/>
+                            <constraint firstAttribute="width" constant="50" id="COY-4t-XO0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" 品牌简介" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POV-ia-4SK">
+                        <rect key="frame" x="80" y="15" width="225" height="29"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="k98-b1-SAb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="Jlw-AC-qFw"/>
+                    <constraint firstAttribute="bottom" secondItem="POV-ia-4SK" secondAttribute="bottom" constant="15" id="KnX-ux-nte"/>
+                    <constraint firstAttribute="bottom" secondItem="k98-b1-SAb" secondAttribute="bottom" constant="5" id="ORm-nR-VuY"/>
+                    <constraint firstItem="k98-b1-SAb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="VHa-IY-gXc"/>
+                    <constraint firstItem="POV-ia-4SK" firstAttribute="leading" secondItem="k98-b1-SAb" secondAttribute="trailing" constant="15" id="ceb-AS-Hgm"/>
+                    <constraint firstAttribute="trailing" secondItem="POV-ia-4SK" secondAttribute="trailing" constant="15" id="qf1-wo-hHq"/>
+                    <constraint firstItem="POV-ia-4SK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="ycy-el-KSB"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ORm-nR-VuY"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageV" destination="k98-b1-SAb" id="bgh-uZ-LUH"/>
+            </connections>
+            <point key="canvasLocation" x="321" y="448"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Entity" syncable="YES"/>
+    <entity name="WebCollectionData" representedClassName="WebCollectionData" syncable="YES"/>
+    <elements>
+        <element name="WebCollectionData" positionX="-63" positionY="-18" width="128" height="45"/>
+        <element name="Entity" positionX="-45" positionY="36" width="128" height="45"/>
+    </elements>
+</model>
